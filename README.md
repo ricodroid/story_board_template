@@ -13,11 +13,11 @@ git clone git@github.com:ricodroid404/story_board_template.git
 cd story_board_template
 ```
 
-- 任意のプロジェクト名に変更するためのシェルスクリプト(changeName.sh)を変更する
+- 任意のプロジェクト名に変更するためのシェルスクリプト(changeName.sh)を変更する（ **story_board_template** のままでOKなら、実行しなくて良い）
 ```
 vim changeName.sh
 ```
-**new_project_name="NewProjectName"** の　**NewProjectName** を、設定したいプロジェクト名に変更する
+**new_project_name="NewProjectName"** の　**NewProjectName** を、設定したいプロジェクト名に変更する（ **story_board_template** のままでOKなら、実行しなくて良い）
 ```
 # 新しいプロジェクト名
 # !!!!ここを変更したいプロジェクト名に変更してください!!!
@@ -27,6 +27,10 @@ new_project_name="NewProjectName"
 - プロジェクト名を任意のプロジェクト名にするためにシェルを実行　（ **story_board_template** のままでOKなら、実行しなくて良い）
   ```
   chmod +x changeName.sh
+  ```
+- シェルスクリプトを実行する（ **story_board_template** のままでOKなら、実行しなくて良い）
+  ```
+  ./changeName.sh
   ```
 
 - Xcodeでプロジェクトを開く
