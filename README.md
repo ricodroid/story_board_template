@@ -25,13 +25,13 @@ new_project_name="NewProjectName"
 ```
 
 - プロジェクト名を任意のプロジェクト名にするためにシェルを実行　（ **story_board_template** のままでOKなら、実行しなくて良い）
-  ```
-  chmod +x changeName.sh
-  ```
+```
+chmod +x changeName.sh
+```
 - シェルスクリプトを実行する（ **story_board_template** のままでOKなら、実行しなくて良い）
-  ```
-  ./changeName.sh
-  ```
+```
+./changeName.sh
+```
 
 - Xcodeでプロジェクトを開く
 
